@@ -18,4 +18,4 @@
   * ls -a @(e).txt - file with name e.txt
   * grep <textInSingleQuotes> <fileNameOrPattren> - grep 'hello' *.txt
   * command | grep <textOrPattren> - ls | grep 'abc'
-  
+  * grep means generic regular expression parser
