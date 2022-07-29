@@ -20,3 +20,6 @@
   * command | grep <textOrPattren> - ls | grep 'abc'
   * grep means generic regular expression parser
   * exclude errors in output - ex: grep 'root' * 2>dev/null  
+  * see file names which containing text - grep -l 'root' *
+  * See non occurance of that text - grep -v 'root' *
+  * see n lines after or before that match - grep -A n -B n 'root' *
