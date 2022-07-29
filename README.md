@@ -11,4 +11,5 @@
   * printf "%s\n" "hello world" - hello world
   * printf "%04d\t" 1 - 0001
   * printf "%.2f\t" 1 - 1.00
+  * printf "%d\t" 255 0xff 0377 - 255  255  255
   
