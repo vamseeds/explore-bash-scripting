@@ -31,3 +31,9 @@
   * print first n lines of file or input - head -n /etc/passwd . eg: print first 5 lines of a file head -5 /etc/passwd
   * print 4th line of a file  - head -4 /etc/passwd | tail -1 
   * old syntax for both head and tail is <command> -n <no.of lines> <fileName> , default line count is 10
+  * retrive nth line using sed : sed -n <n>p <fileName> . eg: sed -n 5p /etc/passwd
+  * replace text using sed (done once per line) : sed -i (interactive) '/s/<toBeReplaced>/<replacement>' <fileName> . eg: sed -i '/s/abc/xyz' somefile
+  * replace all text occurences using sed : sed -i (interactive) '/s/<toBeReplaced>/<replacement>/g' <fileName> . eg: sed -i '/s/abc/xyz/g' somefile
+  * delete nTh line using sed :  sed -i -e '<n>d' <fileName> . eg : sed -i -e '2d' sometext
+
+ 
