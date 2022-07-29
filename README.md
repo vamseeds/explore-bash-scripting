@@ -27,3 +27,6 @@
   * use -E along with grep in order to use extended regex . eg :  grep -E 'bo+t' somefile
   * spliting content inf file using cut - cut -d<charToSplit> -f <nTh Column After cutting> <fileName> . Eg: cut -d: -f 1 /etc/passwd
   * sorting the data using sort - sort <option> . eg sort -n (numeric sorting order) , sort -d (dictionary order) . Eg : cut -d: -f 3 /etc/passwd | sort -n
+  * print last n lines of file or input - tail -n /etc/passwd . eg: print last 5 lines of a file tail -5 /etc/passwd
+  * print first n lines of file or input - head -n /etc/passwd . eg: print first 5 lines of a file head -5 /etc/passwd
+  * print 4th line of a file  - head -4 /etc/passwd | tail -1 
