@@ -24,4 +24,5 @@
   * See non occurance of that text - grep -v 'root' *
   * see n lines after or before that match - grep -A n -B n 'root' *
   * search text in sub folders as well - grep -r 'root' *
+  * use -E along with grep in order to use extended regex . eg :  grep -E 'bo+t' somefile
  
