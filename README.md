@@ -23,3 +23,5 @@
   * see file names which containing text - grep -l 'root' *
   * See non occurance of that text - grep -v 'root' *
   * see n lines after or before that match - grep -A n -B n 'root' *
+  * search text in sub folders as well - grep -r 'root' *
+ 
