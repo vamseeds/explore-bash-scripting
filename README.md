@@ -9,4 +9,6 @@
   * echo -e "a\tb" - -e enables the formating with bash
   * printf "%s\n" hello world - hello <newline> world
   * printf "%s\n" "hello world" - hello world
+  * printf "%04d\t" 1 - 0001
+  * printf "%.2f\t" 1 - 1.00
   
