@@ -13,4 +13,7 @@
   * printf "%.2f\t" 1 - 1.00
   * printf "%d\t" 255 0xff 0377 - 255  255  255
   * shopt +s extglob - enables more regex pattrens in current shell like *(pattren), +(pattren) along with regular commands like ls eg: ls *.txt
+  * ls -a *.txt - all files ending with .txt
+  * ls -a ?(e).txt - all files having name <singleLetter e/NoLetter>.txt
+  * ls -a @(e).txt - file with name e.txt
   
