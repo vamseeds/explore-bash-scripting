@@ -25,4 +25,5 @@
   * see n lines after or before that match - grep -A n -B n 'root' *
   * search text in sub folders as well - grep -r 'root' *
   * use -E along with grep in order to use extended regex . eg :  grep -E 'bo+t' somefile
- 
+  * spliting content inf file using cut - cut -d<charToSplit> -f <nTh Column After cutting> <fileName> . Eg: cut -d: -f 1 /etc/passwd
+  * sorting the data using sort - sort <option> . eg sort -n (numeric sorting order) , sort -d (dictionary order) . Eg : cut -d: -f 3 /etc/passwd | sort -n
