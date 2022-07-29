@@ -16,4 +16,6 @@
   * ls -a *.txt - all files ending with .txt
   * ls -a ?(e).txt - all files having name <singleLetter e/NoLetter>.txt
   * ls -a @(e).txt - file with name e.txt
+  * grep <textInSingleQuotes> <fileNameOrPattren> - grep 'hello' *.txt
+  * command | grep <textOrPattren> - ls | grep 'abc'
   
