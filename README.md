@@ -19,3 +19,4 @@
   * grep <textInSingleQuotes> <fileNameOrPattren> - grep 'hello' *.txt
   * command | grep <textOrPattren> - ls | grep 'abc'
   * grep means generic regular expression parser
+  * exclude errors in output - ex: grep 'root' * 2>dev/null  
