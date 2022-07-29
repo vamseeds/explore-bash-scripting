@@ -30,3 +30,4 @@
   * print last n lines of file or input - tail -n /etc/passwd . eg: print last 5 lines of a file tail -5 /etc/passwd
   * print first n lines of file or input - head -n /etc/passwd . eg: print first 5 lines of a file head -5 /etc/passwd
   * print 4th line of a file  - head -4 /etc/passwd | tail -1 
+  * old syntax for both head and tail is <command> -n <no.of lines> <fileName> , default line count is 10
