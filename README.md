@@ -35,5 +35,6 @@
   * replace text using sed (done once per line) : sed -i (interactive) '/s/<toBeReplaced>/<replacement>' <fileName> . eg: sed -i '/s/abc/xyz' somefile
   * replace all text occurences using sed : sed -i (interactive) '/s/<toBeReplaced>/<replacement>/g' <fileName> . eg: sed -i '/s/abc/xyz/g' somefile
   * delete nTh line using sed :  sed -i -e '<n>d' <fileName> . eg : sed -i -e '2d' sometext
+  * awk can be used as filter (can do similar work of cut) print 1st column after separtion using : . awk -F : '{print $1}' /etc/passwd , 4th col : awk -F : '{print $4}' /etc/passwd
 
  
