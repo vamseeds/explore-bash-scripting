@@ -6,4 +6,7 @@
   * see aliases set in current shell - alias
   * see all internal commands - help
   * see bash version - echo $BASH_VERSION
+  * echo -e "a\tb" - -e enables the formating with bash
+  * printf "%s\n" hello world - hello <newline> world
+  * printf "%s\n" "hello world" - hello world
   
