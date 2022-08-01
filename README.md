@@ -54,6 +54,7 @@
   * variables can be viewed in 2 ways . set , compgen -v
   * positional arguments of a script can be referred using $<position> . $0 is always script name . Eg: ./deploy.sh hello vamsi , $0 = ./deploy.sh , $1 = hello , $2 =vamsi 
   * /$* will treat all args as single string , /$@ will be helpful to iterate over all args
+  * "shift <n>" command is useful to skip n arguments inside script.   ./deploy.sh hello vamsi how are you . $1 = hello . if we use shift 2 $1 will be how
   
 
  
