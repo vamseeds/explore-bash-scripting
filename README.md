@@ -39,6 +39,7 @@
   * awk can be used as filter (can do similar work of cut) print 1st column after separtion using : . awk -F : '{print $1}' /etc/passwd , 4th col : awk -F : '{print $4}' /etc/passwd
   * Searching and filtering with awk (can't be done with cut) : awk -F : '/student/ {print $1}' /etc/passwd 
   * advanced filtering based on different columns : awk -F : '$3(column 3) < 999 {print $1} /etc/password'
+  * How do you tell your shell script interpreter that current file has followed bash format ? Ans : use Shebang at starting (#!bin/bash or #!usr/bin/env bash)
   
 
  
