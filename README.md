@@ -43,6 +43,9 @@
   * Single Quotes are Strong any variable reference inside single quotes is not interpreted
   * Double Quotes are referred as Weak Quotes as variable references can be interpreted
   * To avoid interpretation while using double quotes just add a backslash before variable . eg : echo "Hello \$USER" will be Hello $USER ... USER will not get interpreted 
+  * declare is used to set special type of variable
+      **eg :  read only variable declare -r x=1000 
+      ** array variable declare -a my_array or declare -A my_array
   
 
  
