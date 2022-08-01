@@ -46,6 +46,7 @@
   * declare is used to set special type of variable
       **eg :  read only variable declare -r x=1000 
       ** array variable declare -a my_array or declare -A my_array
+  * Use declare -p to see which kind of variable it is . Eg : declare -p $PATH 
   
 
  
