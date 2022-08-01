@@ -40,6 +40,9 @@
   * Searching and filtering with awk (can't be done with cut) : awk -F : '/student/ {print $1}' /etc/passwd 
   * advanced filtering based on different columns : awk -F : '$3(column 3) < 999 {print $1} /etc/password'
   * How do you tell your shell script interpreter that current file has followed bash format ? Ans : use Shebang at starting (#!bin/bash or #!usr/bin/env bash)
+  * Single Quotes are Strong any variable reference inside single quotes is not interpreted
+  * Double Quotes are referred as Weak Quotes as variable references can be interpreted
+  * To avoid interpretation while using double quotes just add a backslash before variable . eg : echo "Hello \$USER" will be Hello $USER ... USER will not get interpreted 
   
 
  
