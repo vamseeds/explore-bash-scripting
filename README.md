@@ -51,6 +51,7 @@
   * Site Specific data need to be decoupled from script and should be sourced in script .
   * source files can have variables and functions but to make it clean prefer having variables only
   * sourcing can be done in 2 ways viz., source <file> , . <file>
+  * variables can be viewed in 2 ways . set , compgen -v
   
 
  
