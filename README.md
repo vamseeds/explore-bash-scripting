@@ -48,6 +48,9 @@
       ** array variable declare -a my_array or declare -A my_array
   * Use declare -p to see which kind of variable it is . Eg : declare -p PATH 
   * Scripts which needs to be sourced should not start with shebang ... having shebang will create a new subshell for execution 
+  * Site Specific data need to be decoupled from script and should be sourced in script .
+  * source files can have variables and functions but to make it clean prefer having variables only
+  * sourcing can be done in 2 ways viz., source <file> , . <file>
   
 
  
