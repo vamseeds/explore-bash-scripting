@@ -53,6 +53,7 @@
   * sourcing can be done in 2 ways viz., source <file> , . <file>
   * variables can be viewed in 2 ways . set , compgen -v
   * positional arguments of a script can be referred using $<position> . $0 is always script name . Eg: ./deploy.sh hello vamsi , $0 = ./deploy.sh , $1 = hello , $2 =vamsi 
+  * $* will treat all args as single string , $@ will be helpful to iterate over all args
   
 
  
