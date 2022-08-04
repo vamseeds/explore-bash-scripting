@@ -126,6 +126,7 @@ EOF
       test <condition> has 2 more altarnatives [ <condition> ] and [[ <condition> ]] . use [[ for more complex test evaluation
    
     * if elif and else 
+   
       ```
       if [ condition ]; then (no need of ; if you put then in next line)
          code block
@@ -133,6 +134,13 @@ EOF
          code block
       else
          code block
+      ```
+    * for loop :
+      ```
+      for i in <range>
+      do
+         code block
+      done
       ```
    
          
