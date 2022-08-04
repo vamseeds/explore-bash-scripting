@@ -183,7 +183,8 @@ EOF
         esac
    done
    ```
-
+* local keyword :
+   use local before variable inside are function to restrict its scope to the function
    
    
          
