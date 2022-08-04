@@ -99,6 +99,11 @@ EOF
      $((mathExp))
      ```
      Use bc -l to see decimals of calc . Eg: ``` echo "1000/7" | bc -l ```
-  
-
+    * tr :  its an external utility to  translate chars
+    ```
+     echo hello | tr [a-z] [A-Z] -> HELLO
+     echo hello | tr [:lower:] [:UPPER:] -> HELLO
+     echo hello | tr [a-m] [n-z] -> a-m chars in source string will be replaced with n-z chars kind of scramble
+    ```
+    
  
