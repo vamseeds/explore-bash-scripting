@@ -171,6 +171,20 @@ EOF
       done
       ```
    
+* Options :
+   ```
+   #ls -lart , -l, -a, -r , -t are options
+   while getopts "l:a:r:t:" opt; do
+        case $opt in 
+             l) echo $OPTARG ;;
+             a) echo $OPTARG ;;
+             r) echo $OPTARG ;;
+             t) echo $OPTARG ;;
+        esac
+   done
+
+
+   
    
          
         
