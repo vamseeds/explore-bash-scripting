@@ -56,6 +56,7 @@
   * /$* will treat all args as single string , /$@ will be helpful to iterate over all args
   * "shift <n>" command is useful to skip n arguments inside script.   ./deploy.sh hello vamsi how are you . $1 = hello . if we use shift 2 $1 will be how
   * Command Substitution : When we want to use the result of a command we use command substitution . Eg : today = $(date +%d-%m-%y) - $() is mostly is used and readable other way is to use backtick notation Eg: today = `date +%d-%m-%y` . Issue is some screens show backtick like single quote and it can be confusing
+  * How to see the exit code of previous command? : use echo $?
   
 
  
