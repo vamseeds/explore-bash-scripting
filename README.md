@@ -145,7 +145,7 @@ EOF
     * Case:
       ```
       case <variable> in
-      option/options) 
+      option 1 | option 2) 
                      code block
                      ;;
       other option) 
