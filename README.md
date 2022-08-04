@@ -75,6 +75,23 @@ EOF
    echo ${user:?"Error"} - When user is not available Error will be displayed
    ```
    
+   * Pattren Matching :
+   ```
+   ${var#} - length of the string
+   ${var#<regex>} - removes the matched regex portion from right
+   ${var##<regex>} - removes the long/last matched regex portion from right
+   ${var%<regex>} - removes the matched regex portion from left
+   ${var%%<regex>} - removes the long/last matched regex portion from right
+   ```
+   Replacement:
+   ```
+   ${var/pattren/replacement} -single replacement
+   ${var//pattren/replacement} -global replacement
+   ${var/#pattren/replacement} -replacement when var starts with pattren
+   ${var/%pattren/replacement} -replacement when var ends with a pattren
+   ```
+
+   
   
 
  
