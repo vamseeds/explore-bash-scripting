@@ -110,5 +110,26 @@ EOF
       color=red; echo ${color^^} -> RED  (^^ makes the input to uppercase)
       color=BLUE; echo ${color,,} -> blue  (,, makes the input to lowercase)
      ```
+    * IF syntax :
+      ```
+      if test <condition> 
+      then
+          code blcok
+      fi
+      ```
+      test <condition> has 2 more altarnatives [ <condition> ] and [[ <condition> ]] . use [[ for more complex test evaluation
+    * if elif and else 
+      ```
+      if [ condition ]; then (no need of ; if you put then in next line)
+         code block
+      elif [ condition ]
+         code block
+      else
+         code block
+      ```
+   
+         
+        
+      
     
  
