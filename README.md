@@ -165,7 +165,7 @@ EOF
       ```
     *Until :
       ```
-      Until <condition is false>
+      Until <condition is staisfied>
       do 
          code block
       done
