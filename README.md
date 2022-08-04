@@ -68,6 +68,12 @@ EOF
    ```
    In above example we are trying to cat something and saving that to kustomization.yaml ... the command will consume data until it finds the keyword EOF. <<KEYWORD will help in redirection of data until it finds that text
    
+   * Parameter Substitution: When Parameter is not available we can do 3 things display some value to stdout or assign some value or throw error message. Eg: 
+   ```
+   echo ${user:-$(whoami)}  - This just displays whoami result when user var is not available . Future references of user will still be empty
+   echo ${user:=$(whoami)}  - This will assign whoami result to user when user var data is unavailable/not initialized. Future references of user will still be result of whoami
+   echo ${user:?"Error"} - When user is not available Error will be displayed
+   ```
    
   
 
