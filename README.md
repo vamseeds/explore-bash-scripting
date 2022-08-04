@@ -57,6 +57,16 @@
   * "shift <n>" command is useful to skip n arguments inside script.   ./deploy.sh hello vamsi how are you . $1 = hello . if we use shift 2 $1 will be how
   * Command Substitution : When we want to use the result of a command we use command substitution . Eg : today = $(date +%d-%m-%y) - $() is mostly is used and readable other way is to use backtick notation Eg: today = `date +%d-%m-%y` . Issue is some screens show backtick like single quote and it can be confusing
   * How to see the exit code of previous command? : use echo $?
+  * here document : Its a I/O redirection to feed command list to an interactive program  .  Eg:
+   ** cat >./kustomization.yaml <<EOF 
+configMapGenerator:
+- name: example-configmap-1
+  files:
+  - application.properties
+EOF
+   In above example we are trying to cat something and saving that to kustomization.yaml ... the command will consume data until it finds the keyword EOF. <<KEYWORD will help in redirection of data until it finds that text
+   
+   
   
 
  
