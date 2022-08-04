@@ -90,7 +90,8 @@ EOF
    ${var/#pattren/replacement} -replacement when var starts with pattren
    ${var/%pattren/replacement} -replacement when var ends with a pattren
    ```
-
+   * In order to use all regex features we need to enable extended globbing . To enable it we should add below line in script :
+     ```shopt -s extglob```
    
   
 
