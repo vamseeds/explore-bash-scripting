@@ -142,6 +142,21 @@ EOF
          code block
       done
       ```
+    * Case:
+      ```
+      case <variable> in
+      option/options) 
+                     code block
+                     ;;
+      other option) 
+                   code block
+                   ;;
+      some other option)
+                   code block
+                   ;;
+      esac
+      ```
+   
    
          
         
