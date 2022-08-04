@@ -92,7 +92,12 @@ EOF
    ```
    * In order to use all regex features we need to enable extended globbing . To enable it we should add below line in script :
      ```shopt -s extglob```
-   
+   * Calculations : Following 3 ways to evaluate a math expression
+     ```
+     let mathExp
+     expr mathExp
+     $((mathExp))
+     ```
   
 
  
