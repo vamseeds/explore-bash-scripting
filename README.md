@@ -99,17 +99,20 @@ EOF
      $((mathExp))
      ```
      Use bc -l to see decimals of calc . Eg: ``` echo "1000/7" | bc -l ```
+   
     * tr :  its an external utility to  translate chars
     ```
      echo hello | tr [a-z] [A-Z] -> HELLO
      echo hello | tr [:lower:] [:UPPER:] -> HELLO
      echo hello | tr [a-m] [n-z] -> a-m chars in source string will be replaced with n-z chars kind of scramble
     ```
+   
     * How to change cases :
       ```
       color=red; echo ${color^^} -> RED  (^^ makes the input to uppercase)
       color=BLUE; echo ${color,,} -> blue  (,, makes the input to lowercase)
      ```
+   
     * IF syntax :
       ```
       if test <condition> 
@@ -117,7 +120,9 @@ EOF
           code blcok
       fi
       ```
+   
       test <condition> has 2 more altarnatives [ <condition> ] and [[ <condition> ]] . use [[ for more complex test evaluation
+   
     * if elif and else 
       ```
       if [ condition ]; then (no need of ; if you put then in next line)
