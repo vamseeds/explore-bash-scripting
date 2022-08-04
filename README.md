@@ -105,5 +105,10 @@ EOF
      echo hello | tr [:lower:] [:UPPER:] -> HELLO
      echo hello | tr [a-m] [n-z] -> a-m chars in source string will be replaced with n-z chars kind of scramble
     ```
+    * How to change cases :
+      ```
+      color=red; echo ${color^^} -> RED  (^^ makes the input to uppercase)
+      color=BLUE; echo ${color,,} -> blue  (,, makes the input to lowercase)
+     ```
     
  
