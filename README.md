@@ -98,6 +98,7 @@ EOF
      expr mathExp
      $((mathExp))
      ```
+     Use bc -l to see decimals of calc . Eg: ``` echo "1000/7" | bc -l ```
   
 
  
