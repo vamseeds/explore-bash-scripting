@@ -156,6 +156,20 @@ EOF
                    ;;
       esac
       ```
+    * While :
+      ```
+      while <condition is true>
+      do 
+         code block
+      done
+      ```
+    *Until :
+      ```
+      Until <condition is false>
+      do 
+         code block
+      done
+      ```
    
    
          
